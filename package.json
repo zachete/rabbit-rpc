@@ -1,0 +1,22 @@
+{
+  "name": "rabbit-rpc",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server": "npx ts-node server.ts",
+    "client": "npx ts-node client.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.5",
+    "@types/uuid": "^10.0.0",
+    "prettier": "^3.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
